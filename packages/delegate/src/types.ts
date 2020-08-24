@@ -200,7 +200,7 @@ export interface StitchingInfo {
   endpoints: Record<string, Endpoint>;
 }
 
-export interface ExternalData {
+export interface ExternalObject {
   key: any;
   [OBJECT_SUBSCHEMA_SYMBOL]: GraphQLSchema | SubschemaConfig;
   [FIELD_SUBSCHEMA_MAP_SYMBOL]: Record<string, GraphQLSchema | SubschemaConfig>;
